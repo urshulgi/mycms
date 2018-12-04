@@ -6,7 +6,7 @@
 # Utilizada mayormente en functions.php y en includes.
 function dbConnection () {
   # Datos del servidor
-  $server = ""; # Servidor
+  $server = "localhost"; # Servidor
   $user = ""; # Usuario
   $pass = ""; # Contraseña
   $db = ""; # Nombre de la base de datos
