@@ -1,0 +1,3 @@
+Default account:
+user: admin
+password: admin
