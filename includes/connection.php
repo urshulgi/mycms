@@ -7,9 +7,9 @@
 function dbConnection () {
   # Datos del servidor
   $server = "localhost"; # Servidor
-  $user = "phillips"; # Usuario
-  $pass = "WeWill##Rise$"; # Contraseña
-  $db = "mycms"; # Nombre de la base de datos
+  $user = ""; # Usuario
+  $pass = ""; # Contraseña
+  $db = ""; # Nombre de la base de datos
   static $connection;
   if ($connection===NULL){
       $connection = new mysqli($server, $user, $pass, $db);
